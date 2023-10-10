@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T02:33:36.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="X0M1PEQuZdknx2qYoxDp" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T03:22:14.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="yMqbxZrBLINyyOEOpACC" version="22.0.4" type="github">
   <diagram name="Page-1" id="DXQioAjMJC217JuTQ4zU">
     <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,10 +18,10 @@
         <mxCell id="45A5rQqayR4YsD9Ih2-c-5" value="pinjam buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="277" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="45A5rQqayR4YsD9Ih2-c-6" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="45A5rQqayR4YsD9Ih2-c-6" value="data peminjam" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="367" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="45A5rQqayR4YsD9Ih2-c-7" value="cari data buku&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="45A5rQqayR4YsD9Ih2-c-7" value="cari buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="90" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="45A5rQqayR4YsD9Ih2-c-8" value="Perpus-digital" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
