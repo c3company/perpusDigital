@@ -1,7 +1,8 @@
 <template>
   <div>
-    <header>Book Search Tools</header>
+    <!-- HEADER -->
+    <Header />
     <slot />
+
   </div>
 </template>
-
