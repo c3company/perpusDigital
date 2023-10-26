@@ -2,17 +2,16 @@
   <div>
     <!-- Cari  -->
     <!-- <Search /> -->
-    <nav class="navbar bg-primary p-3">
-      <form class="container">
-        <div class="input-group">
-          <!-- <span class="input-group-text rounded-pill" id="basic-addon1"><i class="bi bi-search"></i></span> -->
-          <form @submit.prevent="getData">
-            <input v-model="keyword" type="search" class="form-control search rounded-pill" placeholder="Cari Buku"
-              aria-label="Cari Buku" aria-describedby="basic-addon1">
-          </form>
-        </div>
-      </form>
-    </nav>
+
+    <div class="row bg-primary py-3">
+      <div class="col-lg-12">
+        <!-- <span class="input-group-text rounded-pill" id="basic-addon1"><i class="bi bi-search"></i></span> -->
+        <form @submit.prevent="getData">
+          <input v-model="keyword" type="search" class="form-control rounded-pill" placeholder="Cari Buku">
+        </form>
+      </div>
+    </div>
+
     <!-- untuk menampilkan componen rekomendasi -->
 
     <!-- <RekomendasiBuku /> -->
@@ -67,10 +66,6 @@
 
 .card {
   margin: auto;
-}
-
-.search {
-  width: 100%;
 }
 </style>
 

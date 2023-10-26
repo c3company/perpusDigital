@@ -1,7 +1,6 @@
 <template>
   <div>
-    <nav class="navbar bg-primary">
-      <div class="container row ps-4">
+      <div class="row ps-4 bg-primary">
         <div class="col-lg-1">
           <img src="~/assets/img/logosmk.png" alt="logo" class="logo pt-3">
         </div>
@@ -10,7 +9,6 @@
           <p class="text-light">Jl.Depok, Sukamenak, Purbaratu 46196</p>
         </div>
       </div>
-    </nav>
   </div>
 </template>
 
