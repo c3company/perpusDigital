@@ -1,8 +1,8 @@
 <template>
   <div>
     <div v-if="loading">
-      Sedang memuat
       <span class="loader"></span>
+      <h5 class="loading-text">Sedang memuat</h5>
     </div>
     <div v-else>
       <div class="container">
@@ -15,6 +15,7 @@
           <p>Penerbit : {{ book.penerbit }}</p>
           <p>Kategori : {{ book.kategori.nama }}</p>
           <p>Rak : {{ book.rak.kode }}</p>
+          <a href="/"><button class="btn btn-primary" type="button">Kembali</button></a>
         </div>
       </div>
     </div>
@@ -38,15 +39,23 @@
   border-radius: 2rem;
 }
 
+
 .loader {
   width: 48px;
   height: 48px;
   border: 5px solid #FFF;
   border-bottom-color: #008cff;
   border-radius: 50%;
-  display: inline-block;
   box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-top: 100px;
   animation: rotation 1s linear infinite;
+}
+
+.loading-text {
+  text-align: center;
 }
 
 @keyframes rotation {
@@ -57,6 +66,10 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+img {
+  border-radius: 1rem;
 }
 </style>
 
@@ -74,7 +87,7 @@ async function getData() {
     .from('buku')
     .select(`
     id, judul, penulis, penerbit, 
-    kategori(id), rak(kode), cover
+    kategori(nama), rak(kode), cover
   `)
 
     .eq("id", id)
