@@ -13,8 +13,10 @@
           <h4>{{ book.judul }}</h4>
           <p>Penulis : {{ book.penulis }}</p>
           <p>Penerbit : {{ book.penerbit }}</p>
+          <p>Tahun Terbit : {{ book.tahun_terbit }}</p>
           <p>Kategori : {{ book.kategori.nama }}</p>
           <p>Rak : {{ book.rak.kode }}</p>
+          <p>Deskripsi : {{ book.deskripsi }}</p>
           <a href="/"><button class="btn btn-primary" type="button">Kembali</button></a>
         </div>
       </div>
@@ -87,7 +89,7 @@ async function getData() {
     .from('buku')
     .select(`
     id, judul, penulis, penerbit, 
-    kategori(nama), rak(kode), cover
+    kategori(nama), rak(kode), cover, tahun_terbit, deskripsi
   `)
 
     .eq("id", id)
